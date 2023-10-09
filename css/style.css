@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 0;
+  color: #677489;
+}
+
+h4 {
+  color: #111729;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #111729;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 300px;
+}
+.img-container .vector {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(27, 27, 27, 0.3);
+  overflow: hidden;
+  width: 425px;
+}
+
+.hero-img-container {
+  height: 325px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.body .description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 30px;
+}
+.body .avatar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  border-top: 1px solid #F2F5F9;
+}
+.body .avatar-container .img-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #F2F5F9;
+  width: 50px;
+  padding: 5px;
+}
+.body .avatar-container .avatar {
+  border-radius: 50%;
+}
+.body .avatar-container .manger-container {
+  margin-left: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
